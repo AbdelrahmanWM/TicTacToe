@@ -296,6 +296,7 @@ let graphicalUserInteface = (function () {
   updateActivePlayer();
   // handlers();
 function handlers(){
+  updateActivePlayer()
   randRotate();
 handlePlayerClick();
   restartGame();
