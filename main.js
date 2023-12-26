@@ -151,6 +151,7 @@ let TicTacToeGame = (function () {
   function restartGame(){
     board.clearBoard();
     gameEnded=false;
+    activePlayer=player1;
   }
   // function playRoundConsole(){   // for console
   //     updateBoard();
